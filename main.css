@@ -1,0 +1,65 @@
+@font-face {
+    font-family: loverine;
+    src: url(/font/Loverine.otf);
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: edition;
+    src: url(/font/edition.ttf);
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: dmsans;
+    src: url(/font/dmsans.ttf);
+    font-weight: 100;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    --main-color: #B86651;
+    --sec-color: #7C2F1C;
+    --script: "loverine";
+    --serif: "edition";
+    --sansserif: "dmsans"
+}
+
+a {
+    text-decoration: none;
+    color: var(--sec-color);
+}
+
+body {
+    background-color: var(--main-color);
+    font-family: var(--script);
+    color: var(--sec-color);
+}
+
+nav {
+    height: 5vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+    font-size: 2rem;
+}
+
+footer{
+    width: 100%;
+    background-color: var(--sec-color);
+    color: white;
+    text-align: center;
+    padding: 3rem 0;
+  }
+  
+  footer h3 {
+    font-family: var(--sansserif);
+    margin-bottom: 1rem;
+  }
+  
+  footer a img{
+    width: 12rem;
+  }

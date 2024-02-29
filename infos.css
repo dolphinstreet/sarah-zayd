@@ -1,0 +1,48 @@
+.card-wrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+    text-align: center;
+    padding:10rem 3rem;
+    flex-wrap: wrap;
+}
+
+.card-wrapper .card {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 25px;
+    align-items: center;
+    justify-content: center;
+    gap: 23px;
+    overflow: hidden;
+    text-wrap: wrap;
+    height: 22rem;
+    width: 17rem;
+    padding: 1rem;
+
+}
+
+.card-wrapper .card img {
+    width: 5rem;
+}
+
+.card-wrapper .card p {
+    font-family: var(--sansserif);
+}
+
+.card-wrapper .card a {
+    font-family: var(--sansserif);
+    background-color: var(--sec-color);
+    color: white;
+    padding: .5rem 1rem;
+    border-radius: 25px;
+}
+
+.map{
+    background-color: white;
+    height: 100%;
+    overflow: hidden;
+}
