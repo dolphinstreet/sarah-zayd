@@ -1,18 +1,18 @@
 @font-face {
     font-family: loverine;
-    src: url(/font/Loverine.otf);
+    src: url(./font/Loverine.otf);
     font-weight: 100;
 }
 
 @font-face {
     font-family: edition;
-    src: url(/font/edition.ttf);
+    src: url(./font/edition.ttf);
     font-weight: 100;
 }
 
 @font-face {
     font-family: dmsans;
-    src: url(/font/dmsans.ttf);
+    src: url(./font/dmsans.ttf);
     font-weight: 100;
 }
 
@@ -39,6 +39,7 @@ body {
 }
 
 nav {
+    padding-top: 3rem;
     height: 5vh;
     display: flex;
     justify-content: space-between;

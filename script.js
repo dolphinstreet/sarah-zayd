@@ -34,16 +34,16 @@
 
 
     const photosList = [
-        "/img/WhatsApp Image 2024-02-26 at 18.25.04 (1).jpeg",
-        "/img/WhatsApp Image 2024-02-26 at 18.27.02.jpeg",
-        "/img/WhatsApp Image 2024-02-26 at 18.28.54.jpeg",
-        "/img/WhatsApp Image 2024-02-26 at 18.29.23.jpeg",
-        "/img/WhatsApp Image 2024-02-26 at 18.30.05.jpeg",
-        "/img/WhatsApp Image 2024-02-26 at 18.30.42.jpeg",
-        "/img/WhatsApp Image 2024-02-26 at 18.31.28.jpeg",
-        "/img/WhatsApp Image 2024-02-26 at 21.10.04.jpeg",
-        "/img/WhatsApp Image 2024-02-26 at 21.13.32.jpeg",
-        "/img/WhatsApp Image 2024-02-26 at 21.14.41.jpeg"
+        "./img/WhatsApp Image 2024-02-26 at 18.25.04 (1).jpeg",
+        "./img/WhatsApp Image 2024-02-26 at 18.27.02.jpeg",
+        "./img/WhatsApp Image 2024-02-26 at 18.28.54.jpeg",
+        "./img/WhatsApp Image 2024-02-26 at 18.29.23.jpeg",
+        "./img/WhatsApp Image 2024-02-26 at 18.30.05.jpeg",
+        "./img/WhatsApp Image 2024-02-26 at 18.30.42.jpeg",
+        "./img/WhatsApp Image 2024-02-26 at 18.31.28.jpeg",
+        "./img/WhatsApp Image 2024-02-26 at 21.10.04.jpeg",
+        "./img/WhatsApp Image 2024-02-26 at 21.13.32.jpeg",
+        "./img/WhatsApp Image 2024-02-26 at 21.14.41.jpeg"
       ];
       
       const cards = document.querySelector('.cards');
