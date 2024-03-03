@@ -61,7 +61,7 @@ const iOSVersion = getiOSVersion();
 if (iOSVersion !== 16) {
   const cards = document.querySelector('.cards');
   let prevImageIndex = -1; // Initialize with a value that won't match any index
-
+  console.log("nope, è iOS ",iOSVersion )
   if (cards) {
     let i = 0;
     setInterval(() => {
@@ -96,6 +96,9 @@ if (iOSVersion !== 16) {
       }, 1000);
     }, 3000);
   }
+} else {
+  console.log("eccoci, è iOS 16",iOSVersion )
+  document.querySelector('.cards').style.display = none;
 }
 
 
