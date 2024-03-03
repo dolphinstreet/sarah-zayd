@@ -1,3 +1,7 @@
+.section1{
+  overflow: hidden;
+
+}
 .hero {
   min-height: 95vh;
   display: flex;
