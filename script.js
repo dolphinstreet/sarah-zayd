@@ -97,11 +97,11 @@ if (iOSVersion !== 16) {
     }, 3000);
   }
   document.querySelector('.gallery-ios16').style.display = "none"; // questo nel if sopra
-  document.querySelector(".hero").style.gap="0"
-  document.querySelector(".hero").style.padding="0"
 } else {
   document.querySelector('.gallery').style.display = "none"; //questo nell'else sotto
   
+  document.querySelector(".hero").style.padding="0"
+  document.querySelector(".hero").style.gap="0"
   console.log("eccoci, è iOS 16",iOSVersion )
 }
 
