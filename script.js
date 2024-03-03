@@ -61,8 +61,8 @@ const iOSVersion = getiOSVersion();
 if (iOSVersion !== 16) {
   const cards = document.querySelector('.cards');
   let prevImageIndex = -1; // Initialize with a value that won't match any index
-  console.log("nope, è iOS ",iOSVersion )
   if (cards) {
+    console.log('testing')
     let i = 0;
     setInterval(() => {
       const active = i++ % 3 + 1;
@@ -96,9 +96,13 @@ if (iOSVersion !== 16) {
       }, 1000);
     }, 3000);
   }
+  document.querySelector('.gallery-ios16').style.display = "none"; // questo nel if sopra
+  document.querySelector(".hero").style.gap="0"
+  document.querySelector(".hero").style.padding="0"
 } else {
+  document.querySelector('.gallery').style.display = "none"; //questo nell'else sotto
+  
   console.log("eccoci, è iOS 16",iOSVersion )
-  document.querySelector('.cards').style.display = none;
 }
 
 

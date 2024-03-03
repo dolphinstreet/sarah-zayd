@@ -22,8 +22,16 @@ h1 {
   justify-content: center;
   width: 30vw;
 }
+.gallery-ios16 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  overflow-x: hidden;
+  height: 580px;
+}
 
-.cards {
+.cards, .cards-ios16 {
   position: relative;
   display: flex;
 }
@@ -33,6 +41,13 @@ h1 {
   height: auto;
   filter: grayscale();
   opacity: 0.9;
+}
+.card-ios16{
+  z-index: 1;
+  background: white;
+  padding: 15px 15px 60px 15px;
+  width: 300px;
+  box-shadow: 1px 3px 16px rgba(44, 31, 18, 0.289);
 }
 
 .card {
