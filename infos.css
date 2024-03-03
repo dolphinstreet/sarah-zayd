@@ -1,11 +1,29 @@
-.card-wrapper{
+.parallax {
+    background-image: url(./img/sz.jpg);
+    height: 43vh;
+    background-attachment: fixed;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+
+nav a {
+    color: white;
+}
+
+nav a img {
+    filter: brightness(10);
+}
+
+.card-wrapper {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     gap: 70px;
     text-align: center;
-    padding:10rem 3rem;
+    padding: 10rem 13vw;
     flex-wrap: wrap;
 }
 
@@ -41,8 +59,44 @@
     border-radius: 25px;
 }
 
-.map{
+.map {
     background-color: white;
     height: 100%;
     overflow: hidden;
+}
+
+.card a {
+    text-decoration: unset;
+}
+
+
+@media screen and (max-width: 1220px) {
+    .parallax {
+        height: 34vh;
+    }
+
+
+}
+
+@media screen and (max-width: 950px) {
+    .parallax {
+        background-size: 165%;
+        background-position: top;
+        height: 27vh;
+    }
+    .card-wrapper{
+        padding-top: 6rem;
+    }
+
+}
+
+@media screen and (max-width: 550px) {
+    .parallax {
+        height: 33vh;
+    }
+    .card-wrapper{
+        padding-top: 1rem;
+    }
+    
+
 }
