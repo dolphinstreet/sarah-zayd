@@ -235,6 +235,9 @@ li span {
   font-size: 1.7rem;
   font-weight: unset;
 }
+.timeline-component p span {
+  font-family: var(--sansserifbold);
+}
 
 
 
@@ -253,6 +256,32 @@ li span {
   .main-middle {
     opacity: 0;
   }
+
+  .infos-utiles{
+    background-color: white;
+    height: 10vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .infos-utiles a {
+    text-decoration: none;
+    font-family: var(--sansserif);
+    background-color: var(--sec-color);
+    color: white;
+    padding: .5rem 1.5rem;
+    border-radius: 25px;
+    font-size: 1.2rem;
+    transition: all .4s ease-in-out;
+  }
+  .infos-utiles a:hover {
+    background-color: var(--hover-sec-color);
+    padding: .5rem 2rem;
+  }
+
+
 
 
 

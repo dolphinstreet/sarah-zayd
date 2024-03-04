@@ -15,16 +15,23 @@
     src: url(./font/dmsans.ttf);
     font-weight: 100;
 }
+@font-face {
+    font-family: dmsans-bold;
+    src: url(./font/dmsans-bold.ttf);
+    font-weight: 100;
+}
 
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    --main-color: #B86651;
-    --sec-color: #7C2F1C;
+    --main-color: #C68486;
+    --sec-color: #924648;
+    --hover-sec-color:#883E40;
     --script: "loverine";
     --serif: "edition";
-    --sansserif: "dmsans"
+    --sansserif: "dmsans";
+    --sansserifbold: "dmsans-bold"
 }
 
 
@@ -45,8 +52,9 @@ nav {
 }
 nav a {
     color: var(--sec-color);
-    font-family: var(--sansserif);
+    font-family: var(--sansserifbold);
     font-size: 1.5rem;
+    font-weight: bold;
 }
 
 
